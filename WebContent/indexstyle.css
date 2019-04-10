@@ -1,0 +1,408 @@
+@charset "ISO-8859-1";
+
+html body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#main{
+  height: 635px;
+  width: 100%;
+  background-image: url('img/bank.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#mainbal{
+  height: 635px;
+  width: 100%;
+  background-image: url('img/4copy.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: inherit;
+}
+
+#mainpin{
+  height: 635px;
+  width: 100%;
+  background-image: url('img/bw.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+
+header{
+  position: absolute;
+  color: white;
+  height: 135px;
+  width: 100%;
+  background-color: #0C1F31;
+  opacity: 1;
+  z-index: 5;
+  border-bottom: 2.5px solid #AC9766;
+}
+
+#img{
+display: inherit;
+position: absolute;
+top: 15%;
+left: 31.5%;
+height: 50px;
+width: 50px;
+}
+
+.brand{
+  font-family: "Montserrat",sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  font-size: 125%;
+  margin-right:auto;
+  margin-left: auto;
+  z-index: 5;
+}
+
+.brand p
+{
+  text-shadow: 1px 1px 3px black, 1px 1px 5px #0C1F31;
+ color: #ac9766;
+  margin: 0;
+}
+
+.brand h1{
+    margin-top: 0.85em;
+  margin-bottom: 0;
+  text-shadow:2px 2.5px 5px black, 2px 2.5px 5px #ac9766;
+
+}
+#log{
+  position: absolute;
+  background-color: #0C1F31;
+  opacity: 0.85;
+  width: 100%;
+  height: 635px;
+}
+#wrap{
+  background-color: #0C1F31;
+  color:#0C1F31;
+  opacity: 4.9;
+}
+
+#h{
+  text-shadow: 2.5px 2.5px 3px black, 2.5px 2.5px 3px #ac9766;
+  text-transform: uppercase;
+  margin-top: 15%;
+  color: white;
+  font-size: 150%;
+}
+
+#tab{
+  text-align: end;
+  font-family: "Montserrat",sans-serif;
+  text-shadow: 1.5px 1.5px 3px black, 1.5px 1.5px 3px #0c1f31;
+  text-transform: capitalize;
+  color: #ac9766;
+  font-size: 235%;
+  font-weight:bolder;
+  margin-top: 3.5%;
+}
+#tab input{
+  font-size: 65%;
+  margin-left: 20%;
+  color:#fff;
+  font-weight: bold;
+  border: 3px solid #ac9766;
+  padding: 12px;
+  width: 110%;
+  background-color: #0C1F31;
+}
+
+#tab input:hover{
+  transition: all ease 0.35s,border-radius 0.5s;
+  box-shadow:3.5px 3.5px 5px #fff;
+  opacity: 0.9;
+  font-size: 65%;
+  margin-left: 20%;
+  color:#fff;
+  font-weight: bold;
+  border: 3px solid #ac9766;
+  border-radius: 7.5px;
+  padding: 12px;
+  width: 110%;
+}
+
+#tab input:focus{
+  font-size: 65%;
+  margin-left: 20%;
+  color:#fff;
+  font-weight: bold;
+  border: 3px solid #C0DFFE;
+  padding: 12px;
+  width: 110%;
+  background-color: #0C1F31;
+}
+
+#tab input:active{
+  font-size: 65%;
+  margin-left: 20%;
+  color:#fff;
+  font-weight: bold;
+  border: 3px solid #C0DFFE;
+  padding: 12px;
+  width: 110%;
+  background-color: #0C1F31;
+}
+
+
+#tab button{
+  color: white;
+  background-color: #0C1F31;
+  border: 3px solid #ac9766;
+  font-size: 0.7em;
+  padding: 12px 0;
+  width: 265%;
+  font-weight: bold;
+  border-radius: 1%;
+  margin-left: 0 15px;
+}
+
+#tab button:hover{
+  transition:box-shadow ease 0.25s,background-color 0.35s,font-size 0.5s;
+  border: 2px solid green;
+  border-radius: 7.5px;
+  box-shadow: 3.5px 3.5px 5px #fff;
+  text-shadow: 1.5px 1.5px 5px black, 1.5px 1.5px 5px #0C1F31;
+  color: white;
+  background-color: #ac9766;
+  border: 3px solid #ac9766;
+  font-size: 0.725em;
+  padding: 12px 0;
+  width: 265%;
+  margin-left: 0 15px;
+  opacity: 1;
+  font-weight: bold;
+border-radius: -1%;
+}
+
+
+footer{
+  height: 85px;
+  text-transform: capitalize;
+  border-top: 2.5px solid #ac9766;
+  margin-top: 0%;
+  font-size: 1.15em;
+  background-color: #0C1F31;
+  color: #ac9766;
+}
+
+footer p{
+  margin:  5px;
+  text-shadow: 1px 1px 3px black, 1px 1px 5px #0C1F31;
+
+}
+#confirm button{
+  margin-left: -7%;
+  width: 235%;
+}
+#confirm button:hover{
+  margin-left: -7%;
+  width: 235%;
+}
+
+span{
+  margin-left: 100px;
+  color: #fff;
+}
+
+#cancel button{
+  width: 100%;
+  margin-left: -25%;
+}
+
+#cancel button:hover{
+  width: 100%;
+  margin-left: -25%;
+}
+
+#td{
+  width: 50%;
+}
+
+
+/*------------mobile view--------------*/
+
+@media (max-width:375px){
+
+  #main{
+    height: 550px;
+    width: 100%;
+    background-image: url('img/bank.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  #mainbal{
+    height: 550px;
+    width: 100%;
+    background-image: url('img/4copy.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: inherit;
+  }
+
+  #mainpin{
+    height: 550px;
+    width: 100%;
+    background-image: url('img/bw.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+  }
+
+
+  header{
+    position: absolute;
+    color: white;
+    height: 125px;
+    width: 100%;
+    background-color: #0C1F31;
+    opacity: 1;
+    z-index: 5;
+    border-bottom: 2.5px solid #AC9766;
+  }
+
+#img{
+  margin-top: 4%;
+  position: absolute;
+  top: 15%;
+  left: 2.5%;
+  height: 50px;
+  width: 50px;
+  }
+
+  .brand p
+{
+  font-size: 0.75em;
+  text-shadow: 1px 1px 3px black, 1px 1px 5px #0C1F31;
+ color: #ac9766;
+  margin: 0;
+}
+
+.brand h1{
+  margin-top: 10%;
+  font-size: 1.35em;
+margin-bottom: 0;
+text-shadow:2px 2.5px 5px black, 2px 2.5px 5px #ac9766;
+
+}
+
+#log{
+  position: absolute;
+  background-color: #0C1F31;
+  opacity: 0.85;
+  width: 100%;
+  height: 550px;
+}
+
+
+#tab{
+  text-align: end;
+  font-family: "Montserrat",sans-serif;
+  text-shadow: 1.5px 1.5px 3px black, 1.5px 1.5px 3px #0c1f31;
+  text-transform: capitalize;
+  color: #ac9766;
+  font-size: 100%;
+  font-weight:bolder;
+  margin-top: 35.5%;
+  margin-left: -15%;
+}
+
+#tab input{
+  font-size: 50%;
+  margin-left: 10%;
+  color:#fff;
+  font-weight: bold;
+  border: 3px solid #ac9766;
+  padding: 12px;
+  width: 100%;
+  background-color: #0C1F31;
+}
+
+#tab input:hover{
+  transition: all ease 0.35s,border-radius 0.5s;
+  box-shadow:3.5px 3.5px 5px #fff;
+  opacity: 0.9;
+  font-size: 50%;
+  margin-left: 10%;
+  color:#fff;
+  font-weight: bold;
+  border: 3px solid #ac9766;
+  border-radius: 7.5px;
+  padding: 12px;
+  width: 100%;
+}
+
+#tab input:focus{
+  font-size: 50%;
+  margin-left: 10%;
+  color:#fff;
+  font-weight: bold;
+  border: 3px solid #C0DFFE;
+  padding: 12px;
+  width: 100%;
+  background-color: #0C1F31;
+}
+
+#tab input:active{
+  font-size: 50%;
+  margin-left: 10%;
+  color:#fff;
+  font-weight: bold;
+  border: 3px solid #C0DFFE;
+  padding: 12px;
+  width: 100%;
+  background-color: #0C1F31;
+}
+#tab button{
+  color: white;
+  background-color: #0C1F31;
+  border: 3px solid #ac9766;
+  font-size: 0.7em;
+  padding: 12px 0;
+  width: 290%;
+  font-weight: bold;
+  border-radius: 1%;
+  margin-left: 0 15px;
+}
+
+#tab button:hover{
+  transition:box-shadow ease 0.25s,background-color 0.35s,font-size 0.5s;
+  border: 2px solid green;
+  border-radius: 7.5px;
+  box-shadow: 3.5px 3.5px 5px #fff;
+  text-shadow: 1.5px 1.5px 5px black, 1.5px 1.5px 5px #0C1F31;
+  color: white;
+  background-color: #ac9766;
+  border: 3px solid #ac9766;
+  font-size: 0.725em;
+  padding: 12px 0;
+  width: 290%;
+  margin-left: 0 15px;
+  opacity: 1;
+  font-weight: bold;
+border-radius: -1%;
+}
+
+footer p{
+  font-size: 0.75em;
+  margin:  5px;
+  text-shadow: 1px 1px 3px black, 1px 1px 5px #0C1F31;
+
+}
+
+}
